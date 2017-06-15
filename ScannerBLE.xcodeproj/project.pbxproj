@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F4862C891EF2AB8400DCA238 /* scanButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4862C881EF2AB8400DCA238 /* scanButton.swift */; };
 		F49136871EF0098800F8130F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49136861EF0098800F8130F /* AppDelegate.swift */; };
-		F49136891EF0098800F8130F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49136881EF0098800F8130F /* ViewController.swift */; };
 		F491368C1EF0098800F8130F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F491368A1EF0098800F8130F /* Main.storyboard */; };
 		F491368E1EF0098800F8130F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F491368D1EF0098800F8130F /* Assets.xcassets */; };
 		F49136911EF0098800F8130F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F491368F1EF0098800F8130F /* LaunchScreen.storyboard */; };
+		F49136991EF00C7000F8130F /* DeviceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49136981EF00C7000F8130F /* DeviceTableViewCell.swift */; };
+		F491369B1EF02D6E00F8130F /* PeripheralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F491369A1EF02D6E00F8130F /* PeripheralViewController.swift */; };
+		F491369D1EF1330D00F8130F /* PeripheralConnectedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F491369C1EF1330D00F8130F /* PeripheralConnectedViewController.swift */; };
+		F491369F1EF179E900F8130F /* ServiceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F491369E1EF179E900F8130F /* ServiceTableViewCell.swift */; };
+		F49136A11EF17DA600F8130F /* PulseAnimationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49136A01EF17DA600F8130F /* PulseAnimationExtension.swift */; };
+		F49136A31EF17EA800F8130F /* BluetoothColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49136A21EF17EA800F8130F /* BluetoothColorExtension.swift */; };
+		F49136A61EF17FFA00F8130F /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49136A51EF17FFA00F8130F /* CoreBluetooth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F4862C881EF2AB8400DCA238 /* scanButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = scanButton.swift; sourceTree = "<group>"; };
 		F49136831EF0098800F8130F /* ScannerBLE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScannerBLE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F49136861EF0098800F8130F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F49136881EF0098800F8130F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F491368B1EF0098800F8130F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F491368D1EF0098800F8130F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F49136901EF0098800F8130F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F49136921EF0098800F8130F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F49136981EF00C7000F8130F /* DeviceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceTableViewCell.swift; sourceTree = "<group>"; };
+		F491369A1EF02D6E00F8130F /* PeripheralViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeripheralViewController.swift; sourceTree = "<group>"; };
+		F491369C1EF1330D00F8130F /* PeripheralConnectedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeripheralConnectedViewController.swift; sourceTree = "<group>"; };
+		F491369E1EF179E900F8130F /* ServiceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceTableViewCell.swift; sourceTree = "<group>"; };
+		F49136A01EF17DA600F8130F /* PulseAnimationExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PulseAnimationExtension.swift; sourceTree = "<group>"; };
+		F49136A21EF17EA800F8130F /* BluetoothColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothColorExtension.swift; sourceTree = "<group>"; };
+		F49136A51EF17FFA00F8130F /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F49136A61EF17FFA00F8130F /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +55,7 @@
 			children = (
 				F49136851EF0098800F8130F /* ScannerBLE */,
 				F49136841EF0098800F8130F /* Products */,
+				F49136A41EF17FFA00F8130F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +71,27 @@
 			isa = PBXGroup;
 			children = (
 				F49136861EF0098800F8130F /* AppDelegate.swift */,
-				F49136881EF0098800F8130F /* ViewController.swift */,
+				F491369A1EF02D6E00F8130F /* PeripheralViewController.swift */,
+				F491369C1EF1330D00F8130F /* PeripheralConnectedViewController.swift */,
+				F491369E1EF179E900F8130F /* ServiceTableViewCell.swift */,
+				F49136981EF00C7000F8130F /* DeviceTableViewCell.swift */,
 				F491368A1EF0098800F8130F /* Main.storyboard */,
 				F491368D1EF0098800F8130F /* Assets.xcassets */,
 				F491368F1EF0098800F8130F /* LaunchScreen.storyboard */,
 				F49136921EF0098800F8130F /* Info.plist */,
+				F49136A01EF17DA600F8130F /* PulseAnimationExtension.swift */,
+				F49136A21EF17EA800F8130F /* BluetoothColorExtension.swift */,
+				F4862C881EF2AB8400DCA238 /* scanButton.swift */,
 			);
 			path = ScannerBLE;
+			sourceTree = "<group>";
+		};
+		F49136A41EF17FFA00F8130F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F49136A51EF17FFA00F8130F /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +167,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F49136891EF0098800F8130F /* ViewController.swift in Sources */,
+				F49136A11EF17DA600F8130F /* PulseAnimationExtension.swift in Sources */,
+				F491369D1EF1330D00F8130F /* PeripheralConnectedViewController.swift in Sources */,
+				F49136991EF00C7000F8130F /* DeviceTableViewCell.swift in Sources */,
+				F491369F1EF179E900F8130F /* ServiceTableViewCell.swift in Sources */,
+				F4862C891EF2AB8400DCA238 /* scanButton.swift in Sources */,
+				F491369B1EF02D6E00F8130F /* PeripheralViewController.swift in Sources */,
 				F49136871EF0098800F8130F /* AppDelegate.swift in Sources */,
+				F49136A31EF17EA800F8130F /* BluetoothColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +299,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8524TVVVVK;
 				INFOPLIST_FILE = ScannerBLE/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.orange.ScannerBLE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -276,6 +313,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8524TVVVVK;
 				INFOPLIST_FILE = ScannerBLE/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.orange.ScannerBLE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -302,6 +340,7 @@
 				F49136971EF0098800F8130F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
