@@ -11,7 +11,6 @@ import UIKit
 extension UIView{
     func pulseAnimation(){
         let scaleAnimation:CABasicAnimation = CABasicAnimation(keyPath: "transform.scale")
-        
         scaleAnimation.duration = 0.5
         scaleAnimation.repeatCount = Float.infinity
         scaleAnimation.autoreverses = true

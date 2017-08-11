@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F435C0111F2A1BA20028239F /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F435C0101F2A1BA20028239F /* MainNavigationController.swift */; };
 		F4862C891EF2AB8400DCA238 /* scanButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4862C881EF2AB8400DCA238 /* scanButton.swift */; };
 		F49136871EF0098800F8130F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49136861EF0098800F8130F /* AppDelegate.swift */; };
 		F491368C1EF0098800F8130F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F491368A1EF0098800F8130F /* Main.storyboard */; };
@@ -19,9 +20,11 @@
 		F49136A11EF17DA600F8130F /* PulseAnimationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49136A01EF17DA600F8130F /* PulseAnimationExtension.swift */; };
 		F49136A31EF17EA800F8130F /* BluetoothColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49136A21EF17EA800F8130F /* BluetoothColorExtension.swift */; };
 		F49136A61EF17FFA00F8130F /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49136A51EF17FFA00F8130F /* CoreBluetooth.framework */; };
+		F497D89B1F0FB2B4003C3B79 /* ServiceCharacteristicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F497D89A1F0FB2B4003C3B79 /* ServiceCharacteristicViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F435C0101F2A1BA20028239F /* MainNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
 		F4862C881EF2AB8400DCA238 /* scanButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = scanButton.swift; sourceTree = "<group>"; };
 		F49136831EF0098800F8130F /* ScannerBLE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScannerBLE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F49136861EF0098800F8130F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +39,7 @@
 		F49136A01EF17DA600F8130F /* PulseAnimationExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PulseAnimationExtension.swift; sourceTree = "<group>"; };
 		F49136A21EF17EA800F8130F /* BluetoothColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothColorExtension.swift; sourceTree = "<group>"; };
 		F49136A51EF17FFA00F8130F /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		F497D89A1F0FB2B4003C3B79 /* ServiceCharacteristicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceCharacteristicViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,15 +77,17 @@
 				F49136861EF0098800F8130F /* AppDelegate.swift */,
 				F491369A1EF02D6E00F8130F /* PeripheralViewController.swift */,
 				F491369C1EF1330D00F8130F /* PeripheralConnectedViewController.swift */,
-				F491369E1EF179E900F8130F /* ServiceTableViewCell.swift */,
+				F497D89A1F0FB2B4003C3B79 /* ServiceCharacteristicViewController.swift */,
 				F49136981EF00C7000F8130F /* DeviceTableViewCell.swift */,
+				F491369E1EF179E900F8130F /* ServiceTableViewCell.swift */,
 				F491368A1EF0098800F8130F /* Main.storyboard */,
 				F491368D1EF0098800F8130F /* Assets.xcassets */,
 				F491368F1EF0098800F8130F /* LaunchScreen.storyboard */,
 				F49136921EF0098800F8130F /* Info.plist */,
-				F49136A01EF17DA600F8130F /* PulseAnimationExtension.swift */,
 				F49136A21EF17EA800F8130F /* BluetoothColorExtension.swift */,
+				F49136A01EF17DA600F8130F /* PulseAnimationExtension.swift */,
 				F4862C881EF2AB8400DCA238 /* scanButton.swift */,
+				F435C0101F2A1BA20028239F /* MainNavigationController.swift */,
 			);
 			path = ScannerBLE;
 			sourceTree = "<group>";
@@ -167,11 +173,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F435C0111F2A1BA20028239F /* MainNavigationController.swift in Sources */,
 				F49136A11EF17DA600F8130F /* PulseAnimationExtension.swift in Sources */,
 				F491369D1EF1330D00F8130F /* PeripheralConnectedViewController.swift in Sources */,
 				F49136991EF00C7000F8130F /* DeviceTableViewCell.swift in Sources */,
 				F491369F1EF179E900F8130F /* ServiceTableViewCell.swift in Sources */,
 				F4862C891EF2AB8400DCA238 /* scanButton.swift in Sources */,
+				F497D89B1F0FB2B4003C3B79 /* ServiceCharacteristicViewController.swift in Sources */,
 				F491369B1EF02D6E00F8130F /* PeripheralViewController.swift in Sources */,
 				F49136871EF0098800F8130F /* AppDelegate.swift in Sources */,
 				F49136A31EF17EA800F8130F /* BluetoothColorExtension.swift in Sources */,

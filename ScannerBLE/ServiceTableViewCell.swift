@@ -9,16 +9,11 @@
 import UIKit
 
 class ServiceTableViewCell: UITableViewCell {
-    
-    @IBOutlet weak var serviceNameLabel: UILabel!
-    @IBOutlet weak var serviceCharasteristicsButton: UIButton!
 
+    @IBOutlet weak var characteristicUUID: UILabel!
+    @IBOutlet weak var propertyLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     }
-    
-    @IBAction func charasteristicsButtonPressed(_ sender: AnyObject) {
-    }
-
 }

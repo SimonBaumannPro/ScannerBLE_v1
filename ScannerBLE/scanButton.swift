@@ -10,6 +10,8 @@ import UIKit
 
 class ScanButton: UIButton {
     
+    let clearBlue = UIColor(red:0.20, green:0.41, blue:0.87, alpha:1.0)
+    
     required init?(coder aDecoder: NSCoder){
         super.init(coder: aDecoder)
         
@@ -21,9 +23,9 @@ class ScanButton: UIButton {
         let title = isScanning ? "Stop Scanning" : "Start Scanning"
         setTitle(title, for: UIControlState())
         
-        let titleColor = isScanning ? UIColor.bluetoothBlueColor() : UIColor.white
+        let titleColor = isScanning ? clearBlue : UIColor.white
         setTitleColor(titleColor, for: UIControlState())
         
-        backgroundColor = isScanning ? UIColor.clear : UIColor.bluetoothBlueColor()
+        backgroundColor = isScanning ? UIColor.white : UIColor.bluetoothBlueColor()
     }
 }
